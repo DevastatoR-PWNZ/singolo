@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('assets/fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('assets/fonts/Lato-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('assets/fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('assets/fonts/Lato-Light.ttf');
+}
+
+.form {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 41px 41px 18px;
+    width: 1020px;
+    height: 654px;
+    background: #f06c64;
+    border: 1px solid #ea676b;
+}
+
+.form h1 {
+    font-family: Lato-Black;
+    font-size: 30px;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+    color: #f0d8d9;
+}
+
+.form p {
+    font-family: Lato-Light;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #f0d8d9;
+}
+
+.enter-form {
+    display: flex;
+    flex-direction: row;
+    padding: 6px 0px;
+}
+
+.main-form {
+    width: 620px;
+}
+
+.form-to-use {  
+    margin: 21px 0px 0px -2px;
+}
+
+.name, .mail, .subject, .textarea {
+    width: 619px;
+    height: 37px;
+    margin-bottom: 17px;
+    box-sizing: border-box;
+    padding: 0px 14px; 
+    font-family: Lato-Regular;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d6564f;
+    color: #f48c8f; 
+}
+
+input::-webkit-input-placeholder { 
+    color: #f48c8f; 
+}
+input:-moz-placeholder { 
+    color: #f48c8f; 
+}
+input::-moz-placeholder { 
+    color: #f48c8f; 
+}
+input:-ms-input-placeholder { 
+    color: #f48c8f; 
+}
+
+textarea::-webkit-input-placeholder { 
+    color: #f48c8f; 
+}
+textarea:-moz-placeholder { 
+    color: #f48c8f; 
+}
+textarea::-moz-placeholder { 
+    color: #f48c8f; 
+}
+textarea:-ms-input-placeholder { 
+    color: #f48c8f; 
+}
+
+.textarea {
+    width: 619px;
+    height: 201px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    padding: 10px 14px;
+    resize: none;
+}
+
+.information {
+    width: 316px;
+    box-sizing: border-box;
+    padding: 10px 0px 0px 19px;
+}
+
+.information h3 {
+    font-family: Lato-Black;
+    font-size: 18px;
+    line-height: 2px;
+    color: #f0d8d9;
+}
+
+.information p, span {
+    font-family: Lato-Regular;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+}
+
+.contact-info1 {
+    box-sizing: border-box;
+    padding: 8px 2px;
+}
+
+.contact-info1 span {
+    padding-left: 10px;
+}
+
+.contact-info2 {
+    margin-top: -18px;
+    box-sizing: border-box;
+    padding: 9px 0px;
+}
+
+.contact-info2 span {
+    padding-left: 8px;
+}
+
+.contact-info3 {
+    margin-top: -18px;
+    box-sizing: border-box;
+    padding: 9px 0px;
+}
+
+.contact-info3 span {
+    padding-left: 6px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0px 40px 0px 42px;
+    width: 1020px;
+    height: 76px;
+    background-color: #2d303a;
+}
+
+footer p {
+    font-family: Lato-Regular;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #626984;
+}
+
+.footer-links {
+    position: relative;
+    left: 693px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-img {
+    margin-right: 8px;
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #666d89;
+    border-radius: 50%;
+}
+
+.contact-img.facebook {
+    cursor: pointer;
+    background: url('assets/img/facebook.png') no-repeat;
+    background-position: 11px 8px;
+}
+
+.contact-img.facebook:hover {
+    background: url('assets/img/facebook_hover.png') no-repeat;
+    background-position: 11px 8px;
+}
+
+.contact-img.google {
+    cursor: pointer;
+    background: url('assets/img/google+.png') no-repeat;
+    background-position: 8px 8px;
+}
+
+.contact-img.google:hover {
+    background: url('assets/img/google+_hover.png') no-repeat;
+    background-position: 8px 8px;
+}
+
+.contact-img.twitter {
+    cursor: pointer;
+    background: url('assets/img/twitter.png') no-repeat;
+    background-position: 8px 9px;
+}
+
+.contact-img.twitter:hover {
+    background: url('assets/img/twitter_hover.png') no-repeat;
+    background-position: 8px 9px;
+}
+
+.contact-img.linkedin {
+    cursor: pointer;
+    background: url('assets/img/linkedin.png') no-repeat;
+    background-position: 8px 8px;
+}
+
+.contact-img.linkedin:hover {
+    background: url('assets/img/linkedin_hover.png') no-repeat;
+    background-position: 8px 8px;
+}
